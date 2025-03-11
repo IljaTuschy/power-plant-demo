@@ -37,6 +37,7 @@ class PerfectGas():
                            self.calc_v_pt,
                            self.ref_state.h,
                            self.ref_state.s)
+        self.calc_pt()
 
     def calc_v_pt(self):
         """
